@@ -1,0 +1,178 @@
+2025-02-11 19:37:08,123 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-02-11 19:46:29,884 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 19:55:07,980 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 20:04:24,144 - INFO - message='Request to Stripe api' method=post url=https://api.stripe.com/v1/charges
+2025-02-11 20:04:24,816 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/charges response_code=401
+2025-02-11 20:04:24,816 - INFO - error_code=None error_message='Invalid API Key provided: tu_strip********_key' error_param=None error_type=invalid_request_error message='Stripe v1 API error received'
+2025-02-11 20:04:24,817 - ERROR - Error en el pago: Invalid API Key provided: tu_strip********_key
+2025-02-11 20:04:39,003 - INFO - message='Request to Stripe api' method=post url=https://api.stripe.com/v1/charges
+2025-02-11 20:04:39,104 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/charges response_code=401
+2025-02-11 20:04:39,104 - INFO - error_code=None error_message='Invalid API Key provided: tu_strip********_key' error_param=None error_type=invalid_request_error message='Stripe v1 API error received'
+2025-02-11 20:04:39,104 - ERROR - Error en el pago: Invalid API Key provided: tu_strip********_key
+2025-02-11 20:13:22,969 - ERROR - Error en el pago: No API key provided. (HINT: set your API key using "stripe.api_key = <API-KEY>"). You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2025-02-11 20:14:41,605 - ERROR - Error en el pago: No API key provided. (HINT: set your API key using "stripe.api_key = <API-KEY>"). You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2025-02-11 20:16:09,292 - INFO - message='Request to Stripe api' method=post url=https://api.stripe.com/v1/charges
+2025-02-11 20:16:10,943 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/charges response_code=200
+2025-02-11 20:16:10,966 - INFO - Pago realizado: ch_3QrUYgGfPAhwqfqE1pY7xfZp
+2025-02-11 20:16:10,985 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 20:18:38,644 - INFO - message='Request to Stripe api' method=post url=https://api.stripe.com/v1/charges
+2025-02-11 20:18:40,350 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/charges response_code=200
+2025-02-11 20:18:40,353 - INFO - Pago realizado: ch_3QrUb5GfPAhwqfqE1Uqv3Yeq
+2025-02-11 20:18:40,376 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 21:04:24,186 - ERROR - Error en el pago: No API key provided. (HINT: set your API key using "stripe.api_key = <API-KEY>"). You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2025-02-11 21:06:03,068 - ERROR - Error en el pago: No API key provided. (HINT: set your API key using "stripe.api_key = <API-KEY>"). You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2025-02-11 21:06:05,544 - ERROR - Error en el pago: No API key provided. (HINT: set your API key using "stripe.api_key = <API-KEY>"). You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+2025-02-11 21:07:54,181 - INFO - message='Request to Stripe api' method=post url=https://api.stripe.com/v1/charges
+2025-02-11 21:07:55,566 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/charges response_code=200
+2025-02-11 21:07:55,568 - INFO - Pago realizado: ch_3QrVMkGfPAhwqfqE0S6hzMdJ
+2025-02-11 21:07:55,602 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 21:11:24,045 - INFO - Reserva 1 cancelada para usuario 1
+2025-02-11 21:26:09,393 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:26:09,842 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 21:27:50,824 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 21:29:00,775 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:29:01,253 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 21:29:01,668 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 21:31:34,086 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:31:34,536 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 21:31:34,943 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 21:34:05,252 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:34:05,644 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:34:06,832 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:35:18,329 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:35:19,190 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:35:20,732 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:36:27,253 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\multi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-11 21:36:28,013 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:36:29,625 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:38:09,424 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:38:11,526 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:39:10,362 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:39:12,421 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:41:34,567 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:41:36,618 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:45:08,209 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:45:10,272 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:50:39,278 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:50:41,376 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:53:44,431 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 21:53:45,624 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:00:51,482 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:00:51,988 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:01:16,153 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:01:16,639 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:01:57,460 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:01:57,976 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:27,461 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:27,717 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:28,189 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:46,801 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:47,065 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:02:47,562 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:03:37,942 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:03:38,198 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:03:38,426 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:05:17,302 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:05:17,561 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:05:17,793 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:12:28,700 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:12:29,403 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:12:30,049 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:13:07,236 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:13:07,639 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:13:08,071 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:15:12,151 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:15:12,857 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:15:13,291 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:19:12,641 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:19:13,266 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:19:56,294 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:19:56,893 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:20:16,809 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:20:17,490 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:20:36,740 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:20:37,189 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:24:15,571 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:24:15,933 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:25:35,243 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:25:35,603 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:25:35,988 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:25:36,221 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2025-02-11 22:25:36,455 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:25:37,900 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:25:38,597 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:25:38,993 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:26:09,935 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:26:10,353 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:26:20,237 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:26:20,464 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2025-02-11 22:26:20,696 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:26:29,327 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:28:39,822 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:28:40,407 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:28:41,071 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:29:05,366 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:29:07,080 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:29:07,513 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:29:17,016 - INFO - HTTP Request: DELETE http://testserver/reservas/1 "HTTP/1.1 404 Not Found"
+2025-02-11 22:29:17,386 - INFO - HTTP Request: DELETE http://testserver/reservas/999 "HTTP/1.1 404 Not Found"
+2025-02-11 22:29:17,762 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:29:17,992 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2025-02-11 22:29:18,223 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 400 Bad Request"
+2025-02-11 22:29:18,644 - INFO - Reserva confirmada para usuario 1 en viaje 1
+2025-02-11 22:29:19,060 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 200 OK"
+2025-02-11 22:29:19,487 - INFO - HTTP Request: POST http://testserver/reservas "HTTP/1.1 400 Bad Request"
+2025-02-11 22:29:20,108 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 200 OK"
+2025-02-11 22:29:20,594 - INFO - HTTP Request: POST http://testserver/usuarios "HTTP/1.1 400 Bad Request"
+2025-02-11 22:38:52,851 - INFO - Aplicación iniciada
+2025-02-11 22:47:05,601 - INFO - Aplicación iniciada
+2025-02-11 22:48:44,793 - INFO - Aplicación iniciada
+2025-02-11 22:48:48,412 - INFO - Aplicación iniciada
+2025-02-11 22:54:22,018 - INFO - Aplicación iniciada
+2025-02-11 22:54:24,213 - INFO - Aplicación iniciada
+2025-02-11 22:54:26,483 - INFO - Aplicación iniciada
+2025-02-11 22:55:48,451 - INFO - Aplicación iniciada
